@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    height: 60px;
+    /* border: 1px solid black; */
+}
+
+.nav img{
+    margin-left: 30px;
+}
+.nav h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Truculenta", sans-serif;
+}
+.nav h4{
+  color: black;
+  font-size: 20px;
+  margin-left: 83%;
+  font-family: "Truculenta", sans-serif;
+  position: relative;
+  transition: 1s linear;
+}
+
+.nav h4:hover{
+  scale: 1.1;
+}
+.content1 {
+    display: flex;
+    height: 320px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+  }
+  /* code for cafe reviews */
+  .content1 .cafereviews{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content1 .cafereviews img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content1 .cafereviews img:hover{
+    scale: 1.02;
+  }
+  
+  .content1 .cafereviews h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  /* code for travel */
+  .content1 .travel{
+    height: 300px;
+    width: 900px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content1 .travel img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content1 .travel img:hover{
+    scale: 1.02;
+  }
+  
+  .content1 .travel h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .content2{
+    display: flex;
+    height: 320px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+  }
+  /* code for plants */
+  .content2 .plant{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content2 .plant img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content2 .plant img:hover{
+    scale: 1.02;
+  }
+  
+  .content2 .plant h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  /* code for interior */
+  .content2 .interior{
+    height: 300px;
+    width: 430px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content2 .interior img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content2 .interior img:hover{
+    scale: 1.02;
+  }
+  
+  .content2 .interior h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  /* code of photo */
+  .content2 .photo{
+    height: 300px;
+    width: 430px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content2 .photo img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content2 .photo img:hover{
+    scale: 1.02;
+  }
+  
+  .content2 .photo h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .content3{
+    display: flex;
+    height: 320px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+  }
+  
+  /* code for business */
+  .content3 .business{
+    height: 300px;
+    width: 900px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content3 .business img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content3 .business img:hover{
+    scale: 1.02;
+  }
+  
+  .content3 .business h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  /* code for fitness */
+  .content3 .fit{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content3 .fit img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content3 .fit img:hover{
+    scale: 1.02;
+  }
+  
+  .content3 .fit h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .content4{
+    display: flex;
+    height: 320px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+  }
+  
+  /* code for business */
+  .content4 .finance{
+    height: 300px;
+    width: 900px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content4 .finance img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content4 .finance img:hover{
+    scale: 1.02;
+  }
+  
+  .content4 .finance h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .content4 .dessert{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content4 .dessert img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content4 .dessert img:hover{
+    scale: 1.02;
+  }
+  
+  .content4 .dessert h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .content5{
+    display: flex;
+    height: 320px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+  }
+  /* code for history */
+  .content5 .history{
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content5 .history img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content5 .history img:hover{
+    scale: 1.02;
+  }
+  
+  .content5 .history h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  /* code for music */
+  .content5 .music{
+    height: 300px;
+    width: 430px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content5 .music img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content5 .music img:hover{
+    scale: 1.02;
+  }
+  
+  .content5 .music h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  /* code of slice of skin */
+  .content5 .skin{
+    height: 300px;
+    width: 430px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content5 .skin img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: scale 0.5s;
+  }
+  
+  .content5 .skin img:hover{
+    scale: 1.02;
+  }
+  
+  .content5 .skin h2 {
+    background-color: white;
+    color: black;
+    position: absolute;
+    padding: 10px;
+  }

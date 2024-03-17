@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./img/0_effects.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login{
+    margin-top: 170px;
+    margin-left: 550px;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 400px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.login h1{
+    color: rgb(39, 38, 38);
+    font-family: "Truculenta", sans-serif;
+}
